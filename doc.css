@@ -1,0 +1,74 @@
+.doc-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+.doc-header {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.doc-container1 {
+  width: 79px;
+  height: 78px;
+  display: flex;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://gustoon.github.io/icon.png');
+  background-position: center;
+}
+.doc-navlink {
+  display: contents;
+}
+.doc-image {
+  width: 79px;
+  height: 78px;
+  text-decoration: none;
+}
+.doc-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-900);
+}
+.doc-iframe {
+  width: 1181px;
+  height: 822px;
+  margin: var(--dl-space-space-halfunit);
+  margin-top: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 767px) {
+  .doc-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .doc-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .doc-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .doc-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
