@@ -51,6 +51,7 @@
 @media(max-width: 991px) {
   .tel-iframe {
     width: 991px;
+    padding-left: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 767px) {
@@ -64,6 +65,7 @@
   }
   .tel-iframe {
     width: 767px;
+    padding-left: var(--dl-space-space-fiveunits);
   }
 }
 @media(max-width: 479px) {
@@ -76,5 +78,7 @@
   }
   .tel-iframe {
     width: 479px;
+    height: 388px;
+    padding-left: var(--dl-space-space-fiveunits);
   }
 }
