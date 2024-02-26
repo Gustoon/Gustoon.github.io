@@ -23,7 +23,7 @@ json_obj = {
 }
 
 # Chemin d'accès au fichier JSON
-json_file_path = "files.json"
+json_file_path = "mods.json"
 
 # Écriture de l'objet JSON dans le fichier
 with open(json_file_path, "w") as json_file:
