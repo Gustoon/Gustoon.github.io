@@ -6,7 +6,7 @@ def should_include_file(file_name):
     return file_name.endswith(".jar")
 
 # Chemin d'accès au répertoire à scanner pour les fichiers
-dir_path = input("path to directory -> ")
+dir_path = input("path to mods -> ")
 
 # Liste de fichiers à inclure dans le fichier JSON
 file_list = []
