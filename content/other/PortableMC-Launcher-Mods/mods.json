@@ -1,8 +1,12 @@
 {
     "files": [
-        "create-1.18.2-0.5.1.f.jar",
-        "jei-1.18.2-forge-10.2.1.1006.jar",
-        "selene-1.18.2-1.17.14.jar",
-        "supplementaries-1.18.2-1.5.18.jar"
+        "Copycats-fabric.1.20.1-1.2.2.jar",
+        "create-1.20.1-0.5.1.f.jar",
+        "createdeco-2.0.1-1.20.1-forge.jar",
+        "FarmersDelight-1.20.1-1.2.4.jar",
+        "jei-1.20.1-forge-15.3.0.4.jar",
+        "moonlight-1.20-2.11.4-forge.jar",
+        "sliceanddice-forge-3.2.0.jar",
+        "supplementaries-1.20-2.8.6.jar"
     ]
 }
