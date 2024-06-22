@@ -2,14 +2,23 @@
     "files": [
         "alexsmobs-1.21.1.jar",
         "AutoRegLib-1.8.2-55.jar",
+        "BiomesOPlenty-1.19.2-17.1.2.544.jar",
         "citadel-2.1.4-1.19.jar",
         "create-1.19.2-0.5.1.f.jar",
+        "EnchantingInfuser-v4.2.2-1.19.2-Forge.jar",
+        "epicsamurai-0.0.17-1.19.2-forge.jar",
+        "FramedBlocks-6.8.6.jar",
+        "geckolib-forge-1.19-3.1.40.jar",
+        "Gobber2-Forge-1.19.2-2.7.32.jar",
         "Jade-1.19.1-forge-8.9.2.jar",
         "jei-1.19.2-forge-11.6.0.1019.jar",
         "journeymap-1.19.2-5.9.8-forge.jar",
         "moonlight-1.19.2-2.3.6-forge.jar",
+        "PuzzlesLib-v4.4.3-1.19.2-Forge.jar",
         "Quark-3.4-418.jar",
+        "simpleplanes-1.19.2-5.2.2.jar",
         "supplementaries-1.19.2-2.4.20.jar",
+        "TerraBlender-forge-1.19.2-2.0.1.166.jar",
         "useless-sword-furtos-edition-1.19.2-1.0.1.jar"
     ]
 }
