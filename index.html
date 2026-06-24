@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <title>Redirection...</title>
 
-    <!-- Redirection automatique -->
-    <meta http-equiv="refresh" content="0; url=https://permutably-unquixotical-sherman.ngrok-free.dev">
-
-    <!-- Redirection JS (fallback) -->
     <script>
-        window.location.replace("https://permutably-unquixotical-sherman.ngrok-free.dev");
+        const target = "https://permutably-unquixotical-sherman.ngrok-free.dev" +
+                       window.location.pathname +
+                       window.location.search +
+                       window.location.hash;
+
+        window.location.replace(target);
     </script>
+
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=https://permutably-unquixotical-sherman.ngrok-free.dev">
+    </noscript>
 </head>
 <body>
-    <p>Redirection en cours…  
-        <a href="https://permutably-unquixotical-sherman.ngrok-free.dev">
-            Cliquez ici si vous n’êtes pas redirigé automatiquement
-        </a>
-    </p>
+    <p>Redirection en cours…</p>
 </body>
 </html>
